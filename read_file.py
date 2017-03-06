@@ -31,5 +31,6 @@ def read_sun(file):
     return sun
 
 
-d = read_sun("Training_01.txt")
-print_dict(d)
+result = read_sun("Training_01.txt")
+print_dict(result)
+
