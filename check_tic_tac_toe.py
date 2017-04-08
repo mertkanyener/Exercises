@@ -23,12 +23,16 @@ def diagonal_match(table):
 def check_winner(table):
     if line_match(table) > 0:
         print('The winner is player' + str(line_match(table)))
+        return True
     elif column_match(table) > 0:
         print('The winner is player' + str(column_match(table)))
+        return True
     elif diagonal_match(table) > 0:
         print('The winner is player' + str(diagonal_match(table)))
+        return True
     else:
         print("There's no winner")
+        return False
 
 
 game = [[1, 2, 0],
