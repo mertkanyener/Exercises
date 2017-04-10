@@ -59,9 +59,10 @@ also_no_winner = [[1, 2, 0],
 	              [2, 1, 0],
 	              [2, 1, 0]]
 
-check_winner(game)
+"""check_winner(game)
 check_winner(winner_is_1)
 check_winner(winner_is_2)
 check_winner(winner_is_also_1)
 check_winner(no_winner)
 check_winner(also_no_winner)
+"""
